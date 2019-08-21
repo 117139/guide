@@ -1,0 +1,70 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="index_box1 p025">
+		<view class="index_user">
+			<image class="index_uimg" src="../../static/images/Maskhead@3x.png"></image>
+			<text class="index_uname">您好！Daniel</text>
+		</view>
+		<view class="index_jixu">
+			<image src="../../static/images/button11@3x.png"></image>
+			<view><text class="mr20">继续 </text>
+			</view>
+		</view>
+	</view>
+	<view class="index_box2">
+		<view class="box2_tit">课程列表</view>
+		<view class="index_kcbox"
+			wx:for="{{kecheng}}"
+			wx:for-index="idx"
+			wx:for-item="item" 
+			wx:key="idx">
+			<view class="index_kch1">
+				<view data-url="/pages/kecheng/kecheng?id=1" catchtap='jump'>
+					<view class="index_kc_tit">{{item.name}}</view>
+					<view wx:if="{{item.status==1}}" class="index_kc_status">进行中</view>
+					<view wx:if="{{item.status==0}}" class="index_kc_status index_kc_status1">未开始</view>
+				</view>
+				<image data-idx="{{idx}}" bindtap="qhtype" class="index_kc_jiedian" src="../../static/images/calendar@3x.png"></image>
+				<view class="index_kc_like">
+					<view class="index_kc_likenum">8</view>
+					<image class="index_kc_likeicon" src="../../static/images/nice@3x.png"></image>
+				</view>
+				<view class="index_kc_jindu">
+					<view>{{item.num}}</view>
+					<view class="index_slider_box">
+						<view class="index_slider_d" style="width:{{item.num}}"></view>
+					</view>
+				</view>
+			</view>
+			<view wx:if="{{kctype==idx}}" class="index_kc_xjdbox">
+				<view class="index_xjdbox_x {{item1.type==1? 'cur':''}}"
+					wx:for="{{item.xjd}}"
+					wx:for-index="idx1"
+					wx:for-item="item1" 
+					wx:key="idx1" data-url="/pages/kecheng/kecheng?id=1" catchtap='jump'>{{item1.name}}</view>
+			</view>
+		</view>
+	</view>
+	<view class="hengxian_20"></view>
+	<view class="index_box3">
+		<view class="ibox3_tit">今天的日程安排</view>
+		<view class="w100">
+			<view class="box3_one" wx:for="{{anpai}}"
+					wx:for-index="idx"
+					wx:for-item="item" 
+					wx:key="idx"
+					data-url="/pages/kecheng/kecheng?id=1" catchtap='jump'>
+				<image class="b3o_img" src="../../static/images/Rectangleicon@3x.png"></image>
+				<view class="b3o_msg">
+					<view class="b3o_tit">
+						<text class="b3o_jdname">单元4.5</text><text>教育和培训奖励第二部分</text>
+					</view>
+					<view class="b30_tip">
+						<view class="b30_tip1">探索评估的本质</view>
+						<view class="b30_tip2">课堂和使用包容性评估</view>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>

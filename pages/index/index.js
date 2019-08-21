@@ -1,0 +1,145 @@
+//index.js
+//获取应用实例
+const app = getApp()
+
+Page({
+  data: {
+    motto: 'Hello World',
+    userInfo: {},
+    hasUserInfo: false,
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+		num:35,
+		kctype:0,
+		anpai:[1,2,1,1,1],
+		kecheng:[
+			{
+				status:1,
+				num:'35%',
+				name:'课程一',
+				xjd:[
+					{
+						name:3.1,
+						type:1
+					},
+					{
+						name:3.2,
+						type:0
+					},
+					{
+						name:3.3,
+						type:0
+					},
+					{
+						name:3.4,
+						type:0
+					},
+					{
+						name:3.5,
+						type:0
+					},
+					{
+						name:3.6,
+						type:1
+					},
+					{
+						name:3.7,
+						type:1
+					},
+					{
+						name:3.8,
+						type:1
+					},
+					{
+						name:3.9,
+						type:1
+					},
+					{
+						name:4.0,
+						type:1
+					},
+					{
+						name:4.1,
+						type:1
+					},
+					{
+						name:4.2,
+						type:1
+					},
+				]
+			},
+			{
+				status:0,
+				num:'0%',
+				name:'课程二',
+				xjd:[
+					{
+						name:3.1,
+						type:1
+					},
+					{
+						name:3.2,
+						type:0
+					},
+					{
+						name:3.3,
+						type:0
+					},
+					{
+						name:3.4,
+						type:0
+					},
+					{
+						name:3.5,
+						type:0
+					},
+					{
+						name:3.6,
+						type:1
+					},
+					{
+						name:3.7,
+						type:1
+					},
+					{
+						name:3.8,
+						type:1
+					},
+					{
+						name:3.9,
+						type:1
+					},
+					{
+						name:4.0,
+						type:1
+					},
+					{
+						name:4.1,
+						type:1
+					},
+					{
+						name:4.2,
+						type:1
+					},
+				]
+			},
+		]
+  },
+  //事件处理函数
+  bindViewTap: function() {
+    wx.navigateTo({
+      url: '../logs/logs'
+    })
+  },
+  onLoad: function () {
+    // return false
+  },
+	qhtype(e){
+		console.log(e.currentTarget.dataset.idx)
+		this.setData({
+			kctype:e.currentTarget.dataset.idx
+		})
+	},
+  jump(e){
+    app.jump(e)
+  }
+})

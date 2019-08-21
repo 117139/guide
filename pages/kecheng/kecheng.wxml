@@ -1,0 +1,64 @@
+<!--pages/kecheng/kecheng.wxml-->
+<view class="container">
+	<image class="kcbg" src="../../static/images/kcbg.jpg"></image>
+	<view class="body">
+		<view class="w100 pt36" wx:for="{{kecheng}}"
+			wx:for-index="idx"
+			wx:for-item="item" 
+			wx:key="idx">
+			<view class="small_dj">
+				<image class="small_djicon" src="../../static/images/small_kc.png"></image><text>课程 3.1</text>
+			</view>
+			<view class="small_djtit">单元4.5  教育和培训奖励第二部分  </view>
+			<view class="small_dj_video" data-url="/pages/danyuanpg/danyuanpg?id=1"  catchtap='jump'>
+				<image class="sd_video_icon" src="../../static/images/sptb.png"></image>
+				<view class="dj_video">
+					<view class="l_xsj"></view>
+				</view>
+			</view>
+			<view class="small_dj_video sm_dj_dapl" data-url="/pages/danyuanpg/danyuanpg?id=1"  catchtap='jump'>
+				<image class="sd_video_icon" src="../../static/images/dapl.png"></image>
+				<view class="dj_video sm_dj_da_box">
+					<view class="l_xsj l_xsj1"></view>
+					答案和评论86次
+				</view>
+			</view>
+			<view class="small_dj_video sm_dj_dapl sm_dj_wenti" data-url="/pages/danyuanpg/danyuanpg?id=1"  catchtap='jump'>
+				<image class="sd_video_icon" src="../../static/images/wenti.png"></image>
+				<view class="dj_video sm_dj_da_box sm_dj_wenti_box">
+					<view class="r_xsj"></view>
+					Q1:列出4种评估方式
+				</view>
+			</view>
+			<view class="small_dj_video sm_dj_dapl sm_dj_wenti" data-url="/pages/danyuanpg/danyuanpg?id=1"  catchtap='jump'>
+				<image class="sd_video_icon" src="../../static/images/wenti.png"></image>
+				<view class="dj_video sm_dj_da_box sm_dj_wenti_box">
+					<view class="r_xsj"></view>
+					Q2:描述包含的特点
+				</view>
+			</view>
+		</view>
+	</view>
+  <view class='bottombtnz'>
+    <view class='bottombtn'>
+      <image class='bt2_1' src='../../static/images/bt2_1.png'></image>
+      <text>拍照</text>
+    </view>
+    <view class='bottombtn'>
+      <image class='bt2_2' src='../../static/images/bt2_2.png'></image>
+      <text>语音</text>
+    </view>
+    <view class='bottombtn'>
+      <image class='bt2_3' src='../../static/images/bt2_3.png'></image>
+      <text>上传</text>
+    </view>
+    <view class='bottombtn'>
+      <image class='bt2_4' src='../../static/images/bt2_4.png'></image>
+      <text>评论</text>
+    </view>
+    <view class='bottombtn'>
+      <image class='bt2_5' src='../../static/images/bt2_5.png'></image>
+      <text>标注</text>
+    </view>
+  </view>
+</view>

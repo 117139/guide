@@ -1,0 +1,137 @@
+/* pages/danyuanpg_wt/danyuanpg_wt.wxss */
+.container{
+	
+	padding-bottom: 100rpx;
+}
+.ktwt_icon{
+  width: 34rpx;
+	height: 28rpx;
+	margin-right: 24rpx;
+}
+.dy_name{
+	padding: 0 30rpx;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	line-height: 46rpx;
+font-family: PingFangSC-Regular;
+font-size: 24rpx;
+color: #2FAAE2;
+margin-bottom: 16rpx;
+}
+.wentibox{
+	border-radius: 12rpx;
+	background: #FFFFFF;
+border: 0 solid #EEEEEE;
+box-shadow: 0 4px 5px 0 rgba(0,0,0,0.05);
+}
+.wenti_tit{
+	height: 80rpx;
+	background: #2FAAE2;
+	border: 0 solid #EEEEEE;
+	box-shadow: 0 4px 5px 0 rgba(0,0,0,0.05);
+	border-radius: 12rpx 12rpx 0 0;
+	font-family: PingFangSC-Semibold;
+	font-size: 36rpx;
+	color: #FFFFFF;
+	padding: 0 20rpx;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+}
+.wentimian{
+	
+	border-radius: 0 0 12rpx 12rpx;
+	padding: 20rpx 40rpx;
+}
+.yrbox{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 36rpx;
+}
+.yrtx{
+	width: 88rpx;
+	height: 88rpx;
+}
+.pjer{
+	background: #F7F8FA;
+	border-radius: 12rpx;
+	position: relative;
+}
+.t_xsj{
+	position: absolute;
+	top: -56rpx;
+	left: 50%;
+	border-width: 30rpx;
+	margin-left: -30rpx;
+	border-style: solid dashed dashed;
+	border-color:   transparent transparent #F7F8FA;
+}
+.pjer_name{
+	width: 100%;
+	height: 70rpx;
+	padding: 0 26rpx;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	font-family: PingFangSC-Medium;
+	font-size: 28rpx;
+	color: #333333;
+	border-bottom: 1px solid #EFEFEF;
+}
+.pjer_dian{	
+	width: 12rpx;
+	height: 12rpx;
+	border-radius: 50%;
+	background: #2FAAE2;
+	margin-right: 20rpx;
+}
+.pjer_pj{
+	width: 100%;
+	padding: 0 26rpx;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: PingFangSC-Regular;
+	font-size: 24rpx;
+	color: #333333;
+	line-height: 40rpx;
+}
+.iptbox{
+	margin-top: 24rpx;
+	width: 100%;
+	height: 80rpx;
+	background: #F7F8FA;
+	border: 1px solid #F4F4F4;
+	border-radius: 12rpx 80rpx 80rpx 12rpx;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.ipicon{
+	width: 80rpx;
+	height: 80rpx;
+}
+.picker_tit{
+	font-size: 26rpx;
+	color: #999;
+	margin-right: 20rpx;
+}
+.picker{
+	width: 360rpx;
+	padding: 0 20rpx;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 80rpx;
+	font-size: 26rpx;
+	background: #F7F8FA;
+	border: 1px solid #F4F4F4;
+	border-radius: 12rpx;
+	display: flex;
+	align-items: center;
+}

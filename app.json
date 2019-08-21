@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/kecheng/kecheng",
+    "pages/danyuanpg/danyuanpg",
+    "pages/danyuanpg_wt/danyuanpg_wt",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Guide教育",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+		"color": "#333333",
+		"selectedColor": "#333333",
+		"list": [
+			{
+			  "pagePath": "pages/index/index",
+			  "text": "反馈",
+			  "iconPath": "/static/images/index1@3x.png",
+			  "selectedIconPath": "/static/images/index11@3x.png"
+			},
+			{
+			  "pagePath": "pages/index/index",
+			  "text": "屏幕共享",
+			  "iconPath": "/static/images/index2@3x.png",
+			  "selectedIconPath": "/static/images/index21@3x.png"
+			},
+			{
+			  "pagePath": "pages/index/index",
+			  "text": "评论",
+			  "iconPath": "/static/images/index3@3x.png",
+			  "selectedIconPath": "/static/images/index31@3x.png"
+			},
+			{
+			  "pagePath": "pages/index/index",
+			  "text": "控制面板",
+			  "iconPath": "/static/images/index4@3x.png",
+			  "selectedIconPath": "/static/images/index41@3x.png"
+			}
+		]
+	},
+	"sitemapLocation": "sitemap.json"
+}

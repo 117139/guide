@@ -1,0 +1,107 @@
+/* pages/kecheng/kecheng.wxss */
+.container{
+	
+	padding-bottom: 100rpx;
+}
+.kcbg{
+	width: auto;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+	padding-bottom: 100rpx;
+}
+.body{
+	width: 100%;
+	position: relative;
+	z-index: 2;
+}
+.small_dj{
+	
+	font-family: PingFangSC-Semibold;
+	font-size: 36rpx;
+	color: #999999;
+	display: flex;
+	justify-content: center;
+}
+.small_djicon{
+		width: 44rpx;
+		height: 38rpx;
+		margin-right: 26rpx;
+}
+.small_djtit{
+	font-family: PingFangSC-Regular;
+	font-size: 28rpx;
+	color: #2FAAE2;
+	display: flex;
+	justify-content: center;
+	line-height: 46rpx;
+	margin-bottom: 48rpx;
+}
+.sd_video_icon{
+	width: 60rpx;
+	height: 60rpx;
+}
+.small_dj_video{
+	width: 100%;
+	padding: 0 30rpx;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: flex;
+	margin-bottom: 40rpx;
+}
+.dj_video{
+	width: 354rpx;
+	height: 214rpx;
+	border-radius: 12rpx;
+	position: relative;
+	background: #6D6D6D;
+	box-shadow: 0 4px 5px 0 rgba(0,0,0,0.05);
+	margin-left: 24rpx;
+}
+.l_xsj{
+	position: absolute;
+	top: 20rpx;
+	left: -18rpx;
+	border-width: 10rpx;
+	border-style: solid dashed dashed;
+	border-color: transparent #6d6d6d transparent transparent;
+}
+.sm_dj_da_box{
+	width: auto;
+	height: auto;
+	font-family: PingFangSC-Regular;
+	font-size: 24rpx;
+	color: #FFFFFF;
+	padding: 8rpx 36rpx;
+	background-image: linear-gradient(-31deg, #20B437 0%, #5FF0A1 100%);
+	box-shadow: 0 4px 7px 0 rgba(112,206,255,0.37);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.l_xsj1{
+	border-color: transparent #5bec9a transparent transparent;
+}
+.sm_dj_wenti{
+	display: flex;
+	flex-direction: row-reverse;
+}
+.sm_dj_wenti_box{
+	background-image: linear-gradient(27deg, #7FE3FF 0%, #0787D8 100%);
+	box-shadow: 0 4px 7px 0 rgba(112,206,255,0.37);
+	margin-right: 24rpx;
+}
+
+.r_xsj{
+	position: absolute;
+	top: 20rpx;
+	right: -18rpx;
+	border-width: 10rpx;
+	border-style: solid dashed dashed;
+	border-color: transparent  transparent transparent #0787D8;
+}

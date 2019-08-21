@@ -1,0 +1,85 @@
+<!--pages/danyuanpg_wt/danyuanpg_wt.wxml-->
+<view class='container'>
+  <view class='w100 dis_flex ju_c fz24 aic c9'>单元4:评估</view>
+	<view class="w100 h_tit">
+		<view class="p030">
+			<image class="ktwt_icon" src="../../static/images/ketangicon.png"></image>
+			<text class="c3 fz36 fwb">课堂问题</text>
+		</view>
+		<view class="dy_name">单元4.5  教育和培训奖励第一部分  </view>
+		<view class="w100 p030 mb20">
+			<view class="wentibox ">
+				<view class="wenti_tit">Q1:列出4种评估方式</view>
+				<view class="wentimian">
+					<view class="yrbox">
+						<image class="yrtx" src="../../static/images/Maskhead1@3x.png"></image>
+						<image class="yrtx" src="../../static/images/txman.png"></image>
+						<image class="yrtx" src="../../static/images/Maskhead2@3x.png"></image>
+						<image class="yrtx" src="../../static/images/txnv.png"></image>
+						<image class="yrtx" src="../../static/images/Maskhead5@3x.png"></image>
+					</view>
+					<view class="pjer">
+						<view class="t_xsj"></view>
+						<view class="pjer_name">
+							<view class="pjer_dian"></view>
+							<view class="pjer_uname">Sam Stockman</view>
+						</view>
+						<view class="pjer_pj">
+							我在教学实践中使用的四种形成性评估类型。评估学生在课堂进行过程中的学习情况。并在学习计划开始的时候对学生进行学习基础的评估。对学生的技能和能力以及他们可能需要的学习内容进行评估。
+						</view>
+					</view>
+					<view class="iptbox">
+						<input type="text"/>
+						<image class="ipicon" src="../../static/images/ipticon.png"></image>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="w100 p030 mb20">
+			<view class="wentibox ">
+				<view class="wenti_tit">Q2:描述包含的特点</view>
+				<view class="wentimian">
+					<view class="yrbox">
+						<image class="yrtx" src="../../static/images/Maskhead1@3x.png"></image>
+						<image class="yrtx" src="../../static/images/txman.png"></image>
+						<image class="yrtx" src="../../static/images/Maskhead2@3x.png"></image>
+						<image class="yrtx" src="../../static/images/txnv.png"></image>
+						<image class="yrtx" src="../../static/images/Maskhead5@3x.png"></image>
+					</view>
+					<view class="dis_flex ju_b aic">
+						<view class="picker_tit">选择题</view>
+						<picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+							<view class="picker">
+								选择列表
+							</view>
+						</picker>
+						<image class="ipicon" src="../../static/images/wentidg.png"></image>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+  <!-- 底部导航 -->
+  <view class='bottombtnz'>
+    <view class='bottombtn'>
+      <image class='bt2_1' src='../../static/images/bt2_1.png'></image>
+      <text>拍照</text>
+    </view>
+    <view class='bottombtn'>
+      <image class='bt2_2' src='../../static/images/bt2_2.png'></image>
+      <text>语音</text>
+    </view>
+    <view class='bottombtn'>
+      <image class='bt2_3' src='../../static/images/bt2_3.png'></image>
+      <text>上传</text>
+    </view>
+    <view class='bottombtn'>
+      <image class='bt2_4' src='../../static/images/bt2_4.png'></image>
+      <text>评论</text>
+    </view>
+    <view class='bottombtn'>
+      <image class='bt2_5' src='../../static/images/bt2_5.png'></image>
+      <text>标注</text>
+    </view>
+  </view>
+</view>
